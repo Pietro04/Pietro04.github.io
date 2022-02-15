@@ -14,8 +14,8 @@ h1{position:sticky; border:3px solid rgba(255,204,0,1); background-color:rgba(0,
 img{float:right;} 
 .class{float:right; height:50px; width:100px; overflow:auto;}
 </style>
-<title>Sito</title>
+<title>Pietro's Site</title>
 </head>
 <body >
 
-<h1  class="font-effect-fire"> Benvenuto <?php echo $_POST["Utente2"]?> </h1>
+<h1  class="font-effect-fire"> Welcome <?php echo $_POST["Utente2"]?> </h1>
