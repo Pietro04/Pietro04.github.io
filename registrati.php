@@ -1,9 +1,9 @@
 <html>
 <body bgcolor="#0066CC">
 <?php
-$servername = "127.0.0.1";
-$username = "Pietro Floridia";
-$pass = "ciao";
+$servername = "unknown";
+$username = "localhost";
+$pass = "*****";
 $dbname = "utenti sito";
 $Utente = $_POST['Utente'];
 $password = $_POST['password'];
@@ -16,7 +16,7 @@ $password = $_POST['password'];
   VALUES ('$Utente', '$password_hash')";
   // use exec() because no results are returned
   $conn->exec($sql);
-  echo "Nuovo accont creato con successo, clicca sotto per accedere";
+  echo "New account created with success, click here to sign up";
 } catch(PDOException $e) {
   echo $sql . "<br>" . $e->getMessage();
 }
@@ -25,4 +25,4 @@ $conn = null;
 ?>
 <br>
 <form action="accedi.php">
-<button type="submit" ><span style="cursor:pointer"> invia </span></button></form></body></html>
+<button type="submit" ><span style="cursor:pointer"> send </span></button></form></body></html>

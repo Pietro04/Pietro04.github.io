@@ -7,19 +7,19 @@
 <link rel="stylesheet" href="accedistyle.css">
 <title>accedi</title>
 </head>
-<h1> Accedi con le tue credenziali </h1>
-<p1> inserisci nome utente </p1><br><br>
+<h1> Sign up </h1>
+<p1> username</p1><br><br>
 <form name="input" action="accedi.php" method="post">
 <input type="text" name="Utente1">
-<button type="reset"> cancella</button><br><br><br>
-<p1> conferma nome utente </p1><br><br>
+<button type="reset"> delete</button><br><br><br>
+<p1> confirm username </p1><br><br>
 <form name="input" action="sito.php" method="post">
 <input type="text" name="Utente2">
-<p1> inserisci password </p1><br><br>
+<p1> password </p1><br><br>
 <form name="input" action="accedi.php" method="post">
 <input type="password" maxlength="20" name="password">
-<button type="reset"> cancella</button><br><br><br>
-<button type="submit"><span style="cursor:pointer"> invia </span></button> 
+<button type="reset"> delete</button><br><br><br>
+<button type="submit"><span style="cursor:pointer"> send </span></button> 
 <body>
 </body>
 </html>
@@ -28,9 +28,9 @@ function gotoPage($indirizzo=""){
 	echo '<script language="javascript">';
 	echo 'self.location="'.$indirizzo.'"';
 	echo '</script>';}
-$servername = "127.0.0.1";
-$username = "Pietro Floridia";
-$pass = "ciao";
+$servername = "unknown";
+$username = "localhost";
+$pass = "*******";
 $dbname = "utenti sito";
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $pass);
