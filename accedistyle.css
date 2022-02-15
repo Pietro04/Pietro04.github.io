@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:url(planet_clouds_light_star_94996_1920x1080.jpg) center scroll;
+}
+h1 {background-color:rgba(255,255,102,1);
+color:rgba(255,204,0,1);
+font-style:inherit;
+border-style:groove double;
+border-width:20px;
+border-color:rgba(255,153,0,1);
+}
+p1 {background-color: rgba(255,153,51,1) ;
+color: rgba(255,102,51,1);
+border-top:10px ridge  rgba(255,153,0,1);
+border-right:10px groove  rgba(255,204,0,1);
+border-bottom:10px ridge rgba(255,153,0,1);
+border-left:10px groove rgba(255,204,0,1);
+}
+

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:url(stars_space_glow_planet_99744_1920x1080.jpg);
+}
+td {background-color:#C9F;
+color:#F09;
+font-style:inherit;
+border-style: double;
+border-width:20px ;
+border-color:#90C #CC00CC;
+}
+tr {background-color:#909;
+color:#F3F;
+font-style:oblique;
+border-top:10px ridge #C39;
+border-right:10px groove #C3C;
+border-bottom:10px ridge #C39;
+border-left:10px groove #C3C;
+}
+
